@@ -12,8 +12,8 @@ public class Address {
             String name = scan.next();
             System.out.println("enter age");
             int age = scan.nextInt();
-            System.out.println("enter phoneNumber");
-            String phoneNumber = scan.next();
+            System.out.println("enter phone_number");
+            String phone_number = scan.next();
             System.out.println("enter city");
             String city = scan.next();
             System.out.println("enter state");
