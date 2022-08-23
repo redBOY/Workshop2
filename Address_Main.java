@@ -7,13 +7,13 @@ public class Address_Main {
         static String addressbookName = "fistAddress";
         public static void main(String[] args) {
             Map<String, Address> addressMap = new HashMap<>();
-            Address firstaddress = new Address();
+            Address firstaddressbook = new Address_Book();
             firstaddress.add_contacts();
             System.out.println(firstaddress.contactList);
-            Address secondAddress= new Address();
-            secondAddress.add_contacts();
-            System.out.println(secondAddress.contactList);
-            addressMap.put(addressbookName,firstaddress);
+            Address secondAddressbook= new Address();
+            secondAddressbook.add_contacts();
+            System.out.println(secondAddressbook.contactList);
+            addressMap.put(addressbookName,firstaddressbook);
 
         }
     }
